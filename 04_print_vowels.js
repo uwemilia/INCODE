@@ -1,5 +1,3 @@
-<script>
-
 function printVowels(str)
 {
     const vowels_arr = ["a", "e", "i", "o", "u"];
@@ -18,9 +16,6 @@ function printVowels(str)
 }
 
 
-document.write(printVowels("hello world"));
-// document.write(printVowels("kangaroo"));
-// document.write(printVowels("cheeseburger"));
-
-
-</script>
+console.log(printVowels("hello world"));
+console.log(printVowels("kangaroo"));
+console.log(printVowels("cheeseburger"));

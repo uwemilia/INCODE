@@ -1,6 +1,3 @@
-
-<script>
-
 function rps(first_player, second_player)
 {
     const rock = "rock";
@@ -38,5 +35,8 @@ function rps(first_player, second_player)
     }
 }
 
-
-</script>
+console.log(rps("rock", "paper"));
+console.log(rps("rock", "scissors"));
+console.log(rps("paper", "paper"));
+console.log(rps("scissors", "paper"));
+console.log(rps("paper", "scissors"));
